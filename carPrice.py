@@ -15,7 +15,7 @@ from sklearn.preprocessing import LabelEncoder
 pd.set_option('display.max_columns', None)
 pd.set_option('future.no_silent_downcasting', True)
 # dataset
-data=pd.read_csv('C:/Users/ershi/Downloads/car data.csv')
+data=pd.read_csv('data/car data.csv')
 print(data)
 # print(data.head())
 # print(data.info())
