@@ -156,12 +156,12 @@ plt.xlabel('Selling Price')
 plt.ylabel('Frequency')
 plt.show()
 
-plt.figure(figsize=(10,6))
-sns.boxplot(x='Fuel_Type',y='Selling_Price')
-plt.title('Fuel type vs Selling Price')
-plt.xlabel('Selling Price')
-plt.ylabel('Frequency')
-plt.show()
+# plt.figure(figsize=(10,6))
+# sns.boxplot(x='Fuel_Type',y='Selling_Price')
+# plt.title('Fuel type vs Selling Price')
+# plt.xlabel('Selling Price')
+# plt.ylabel('Frequency')
+# plt.show()
 
 
 
