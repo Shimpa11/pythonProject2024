@@ -15,7 +15,7 @@ from sklearn.preprocessing import LabelEncoder
 pd.set_option('display.max_columns', None)
 pd.set_option('future.no_silent_downcasting', True)
 # dataset
-data=pd.read_csv('data/car data.csv')
+data=pd.read_csv('C:/Users/ershi/Downloads/car data.csv')
 print(data)
 # print(data.head())
 # print(data.info())
@@ -157,12 +157,16 @@ plt.ylabel('Frequency')
 plt.show()
 
 # plt.figure(figsize=(10,6))
-# sns.boxplot(x='Fuel_Type',y='Selling_Price')
+# sns.boxplot(x='Present_Price',y='Selling_Price')
 # plt.title('Fuel type vs Selling Price')
 # plt.xlabel('Selling Price')
 # plt.ylabel('Frequency')
 # plt.show()
 
+plt.figure(figsize=(10,6))
+data.groupby('Transmission')['Selling_Price'].mean().plot(kind='bar',color='magenta')
+plt.title('Average selling price of cars based on Transmission Type')
+plt.show()
 
 
 import pickle as pk
