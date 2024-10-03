@@ -24,7 +24,7 @@ st.set_page_config(
 model=pk.load(open('model.pkl','rb'))
 
 st.header('Car Price Prediction Model')
-data=pd.read_csv('C:/Users/ershi/Downloads/car data.csv')
+data=pd.read_csv('data/car data.csv')
 
 def brand_name(Car_Name):
     Car_Name=Car_Name.split(' ')[0]
