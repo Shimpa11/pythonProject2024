@@ -13,6 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     # You can set the primary and background colors here
     # theme={
+
     #     'primaryColor': '#F39C12',
     #     'backgroundColor': '#2C3E50',
     #     'secondaryBackgroundColor': '#34495E',
